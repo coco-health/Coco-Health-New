@@ -1,0 +1,30 @@
+{
+  "name": "coco-health",
+  "version": "1.0.0",
+  "description": "website for coco health",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "@material/linear-progress": "^0.40.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "grunt": "^1.0.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abizzaar/CoCo-Health.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abizzaar/CoCo-Health/issues"
+  },
+  "homepage": "https://github.com/abizzaar/CoCo-Health#readme"
+}
