@@ -238,7 +238,27 @@
     #footer > a:hover {
       border: 1px solid rgba(255,255,255,.2); 
       cursor: pointer;
+      color: rgba(255,255,255,0.3);
     }
+
+    #footer #footerEmail:hover {
+      color: rgba(255,255,255,0.3);
+    }
+
+    
+    .navListHyperlink:hover::after {
+      margin-top: -0.22rem;
+    }
+
+    .navListHyperlink:hover {
+      color: rgba(0,0,0,0.4);
+    }
+
+    .spacerEnd {
+      height: 6rem;
+    }
+
+
 
     
 
@@ -264,7 +284,7 @@
     } */
 
     #callToAction2 {
-        margin-top: 3rem;
+        margin-top: 4rem;
         margin-left: 40%;
     }
         

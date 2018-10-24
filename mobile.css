@@ -158,7 +158,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem auto 0 auto;
+    margin: 4rem auto 0 auto;
     border-radius: 5rem;
     border: none;
     color: white;
@@ -171,7 +171,7 @@ img {
 
 .spacerEnd {
   width: 100%;
-  height: 7rem;
+  height: 5rem;
 }
 
 #callToAction1, #callToAction2 {
@@ -384,7 +384,7 @@ button:focus {
 
 #footer {
     display: flex;
-    /*background-color: #6100ee; #7F46F6 #C9C8FB*/
+    /*background-color:  #6100ee; #7F46F6 #C9C8FB*/
     background-color: #7F46F6;
     flex-direction: column;
     align-items: stretch;
@@ -406,6 +406,8 @@ button:focus {
     flex-grow: 1;
     border-bottom: 1px solid rgba(255,255,255,0.05);
     font-weight: 300;
+    color: rgba(255,255,255,0.8);
+    transition: color 0.5s;
 }
 
 #footer > span:hover {
@@ -425,11 +427,18 @@ button:focus {
 
 #footer p {
   color: rgba(255,255,255,0.7);
+  transition: color 0.5s;
 }
 
 .footerLight {
     color: rgba(255,255,255,0.5);
 }
+
+#footerEmail {
+  transition: color 0.5s;
+}
+
+
 
 
 /* for iphone5 and other thin phones */

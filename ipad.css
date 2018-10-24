@@ -37,6 +37,7 @@
     flex-grow: 1;
     position: relative;
     overflow: hidden;
+    transition: color 0.5s;
 }
 
 .navListHyperlink:after {
@@ -52,10 +53,6 @@
   transition: all 0.3s;
 }
 
-
-.navListHyperlink:hover::after {
-  margin-top: -0.22rem;
-}
 
 #companyName {
     padding-left: 2%;
@@ -113,7 +110,7 @@ h1 {
 
 #imageManCoffeeSmiling {
     display: block;
-    width: 80%;
+    width: 28rem;
     margin: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
